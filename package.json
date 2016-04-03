@@ -4,10 +4,11 @@
   "description": "Basic benchmark of pointwise operations on higher dimensional arrays",
   "main": "experiment.js",
   "dependencies": {
-    "numeric": "~1.2.6",
     "cwise": "~0.3.3",
     "ndarray": "~1.0.3",
-    "ndarray-ops": "~0.1.3"
+    "ndarray-ops": "~0.1.3",
+    "numeric": "~1.2.6",
+    "t-ndarray": "^2.1.0"
   },
   "scripts": {
     "test": "node experiment.js",

@@ -11,8 +11,10 @@ var proposals = [
   require("./numeric_simple.js"),
   require("./numeric_pointwise.js"),
   require("./ndarray-raw.js"),
+  require("./ndarray-type.js"),
   require("./ndarrayops.js"),
-  require("./cwise.js")
+  require("./cwise.js"),
+  require("./cwise-type.js"),
 ];
 
 function padTo(str, nchars, where) {
